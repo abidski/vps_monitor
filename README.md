@@ -13,6 +13,3 @@ A real-time monitoring dashboard that displays system metrics.
 * HTML/CSS
 * Pyhon
 * PostgreSQL
-
-# vps_monitor
-# vps_monitor
