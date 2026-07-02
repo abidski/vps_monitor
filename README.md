@@ -1,9 +1,9 @@
+
 # vps-monitor
 
 A real-time monitoring dashboard that displays system metrics.
 
-<!-- Demo source: https://github.com/nvim-mini/assets/blob/main/demo/demo-files.mp4 -->
-<img width="1920" height="1080" alt="image(1)" src="https://github.com/user-attachments/assets/1e468a6a-bb7b-4fbf-b036-d2f2b49240d2" />
+<img width="1920" height="1080" alt="image(1)" src="https://github.com/user-attachments/assets/dc2bda2b-9169-49e4-80f9-70fa116cbe35" />>
 
 
 
