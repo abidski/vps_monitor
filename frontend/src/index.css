@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap");
+@import "tailwindcss";
+
+body {
+	font-family: "IBM Plex Mono", monospace;
+	font-weight: 500;
+	margin: 0;
+
+	background-color: #ffffff;
+	background-image:
+		linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+		linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+	background-size: 24px 24px;
+
+
+
+}
