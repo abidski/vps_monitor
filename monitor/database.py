@@ -3,9 +3,8 @@ import os
 
 import dotenv
 import psycopg
-from psycopg import AsyncConnection
-
 import state
+from psycopg import AsyncConnection
 
 dotenv.load_dotenv()
 
@@ -52,6 +51,13 @@ class Database:
                     """INSERT INTO metrics (cpu, memory, disk, temperature) 
                        VALUES (%s, %s, %s, %s)""",
                     (cpu, memory, disk, temperature),
+                )
+
+                # From Claude
+                # delete anything older than 7 days
+                await cursor.execute(
+                    """DELETE FROM metrics
+                       WHERE timestamp < NOW() - INTERVAL '7 days'"""
                 )
 
         except Exception as e:

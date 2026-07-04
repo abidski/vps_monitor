@@ -10,6 +10,7 @@ const Tabs = ({ tab, setTab }: Tabs) => {
       <div className="bg-gray-100/60 p-2 rounded-xl  flex justify-center gap-8 items-center m-18 text-xl font-medium span">
         {["overview", "history", "services"].map((element) => (
           <button
+            key={element}
             className={`${tabClass(element)} p-2 px-4 font-bold text-xs uppercase rounded-sm text-gray-500 hover:bg-black hover:text-white`}
             onClick={() => setTab(element as Tab)}
           >
